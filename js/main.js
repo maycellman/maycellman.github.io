@@ -1,20 +1,23 @@
 function removeProjectSelect(){
-  document.getElementById('project1').style.color='#ffffff';
-  document.getElementById('project2').style.color='#ffffff';
-  document.getElementById('project3').style.color='#ffffff';
-  document.getElementById('project4').style.color='#ffffff';
+  $('#project1').css("color", '#ffffff');
+  $('#project2').css("color", '#ffffff');
+  $('#project3').css("color", '#ffffff');
+  $('#project4').css("color", '#ffffff');
+  
 }
 function removeNavSelect(){
-  document.getElementById('projects').style.borderBottom="5px solid lightGrey";
-  document.getElementById('simple').style.borderBottom="5px solid lightGrey";
+  $('#projects').css("borderBottom","5px solid lightGrey");
+  $('#simple').css("borderBottom","5px solid lightGrey");
+  
 }
 function project1(){
   removeProjectSelect();
-  document.body.style.backgroundImage="url('https://i.ibb.co/kJ7zXKJ/compiler.jpg')";
-  document.getElementsByClassName('background')[0].style.transition="background-color 2s ease"
-  document.getElementsByClassName('background')[0].style.background='rgba(76, 211, 186, 0.7)';
-  document.getElementById('project1').style.color='#000000';
-  document.getElementById('projectName').innerHTML= "Mini Java Compiler";
+  $("body").css("background","url('https://i.ibb.co/kJ7zXKJ/compiler.jpg')no-repeat center center fixed");
+  $("body").css("background-size", "cover");
+  $('.background').css("transition","background-color 2s ease");
+  $('.background').css("background","rgba(76, 211, 186, 0.7)");
+  $('#project1').css("color",'#000000');
+  $('#projectName').text("Mini Java Compiler");
 }
 function project2(){
   removeProjectSelect();
@@ -22,33 +25,35 @@ function project2(){
   $("body").css("background-size", "cover");
   $(".background").css("transition","background-color 2s ease");
   $(".background").css("background-color","rgba(220, 199, 170, 0.7)");
-  document.getElementById('project2').style.color='#000000';
-  document.getElementById('projectName').innerHTML= "Smart Mirror";
+  $('#project2').css("color","#000000");
+  $('#projectName').text("Smart Mirror");
 }
 function project3(){
   removeProjectSelect();
-  document.body.style.backgroundImage="url('https://i.ibb.co/rx2kj7P/chat.jpg') ";
-  document.getElementsByClassName('background')[0].style.transition="background-color 2s ease"
-  document.getElementsByClassName('background')[0].style.background="rgba(247, 136, 47, 0.7)";
-  document.getElementById('project3').style.color='#000000';
-  document.getElementById('projectName').innerHTML= "Chat Server";
+  $("body").css("background","url('https://i.ibb.co/rx2kj7P/chat.jpg')no-repeat center center fixed");
+  $("body").css("background-size", "cover");
+  $('.background').css("transition","background-color 2s ease");
+  $('.background').css("background","rgba(247, 136, 47, 0.7)");
+  $('#project3').css("color",'#000000');
+  $('#projectName').text("Chat Server");
 }
 function project4(){
   removeProjectSelect();
-   document.body.style.backgroundImage="url('https://i.ibb.co/PwJtPpb/kinect.jpg')";
-   document.getElementsByClassName('background')[0].style.transition="background-color 2s ease"
-  document.getElementsByClassName('background')[0].style.background='rgba(247, 195, 49, 0.7)';
-  document.getElementById('project4').style.color='#000000';
-  document.getElementById('projectName').innerHTML= "Kinect Data Analysis";
+  $("body").css("background","url('https://i.ibb.co/PwJtPpb/kinect.jpg')no-repeat center center fixed");
+  $("body").css("background-size", "cover");
+  $(".background").css("transition","background-color 2s ease");
+  $(".background").css("background",'rgba(247, 195, 49, 0.7)');
+  $('#project4').css("color",'#000000');
+  $('#projectName').text( "Kinect Data Analysis");
 }
 function projects(){
   removeNavSelect()
   project1();
-  document.getElementById('projects').style.borderBottom="5px solid #000000";
+  $('#projects').css("borderBottom","5px solid #000000");
 }
 function simple(){
   removeNavSelect()
-  document.getElementById('simple').style.borderBottom="5px solid #000000";
+  $('#simple').css("borderBottom","5px solid #000000");
 }
 window.onload=function(){
   projects();

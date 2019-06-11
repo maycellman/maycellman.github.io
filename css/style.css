@@ -6,6 +6,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 .background{
     
@@ -43,7 +44,7 @@ ul li {
 h2{
     position: fixed;
     top:50%;
-    right:80%;
+    left:10%;
     padding-bottom: 3px;
     border-bottom: 10px solid white; 
     font-size:30px;
@@ -54,7 +55,7 @@ ol{
     float: right;
     padding: 0 10px;
     position: fixed;
-    top:30%;
+    top:20%;
     left:90%;
     font-size:40px;
 
