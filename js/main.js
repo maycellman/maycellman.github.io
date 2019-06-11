@@ -18,15 +18,16 @@ function project1(){
 }
 function project2(){
   removeProjectSelect();
-  document.body.style.backgroundImage="url('https://i.ibb.co/xLFqS3d/mirror.jpg')";
-  document.getElementsByClassName('background')[0].style.transition="background-color 2s ease"
-  document.getElementsByClassName('background')[0].style.background='rgba(220, 199, 170, 0.7) ';
+  $("body").css("background","url('https://i.ibb.co/xLFqS3d/mirror.jpg') no-repeat center center fixed");
+  $("body").css("background-size", "cover");
+  $(".background").css("transition","background-color 2s ease");
+  $(".background").css("background-color","rgba(220, 199, 170, 0.7)");
   document.getElementById('project2').style.color='#000000';
   document.getElementById('projectName').innerHTML= "Smart Mirror";
 }
 function project3(){
   removeProjectSelect();
-  document.body.style.backgroundImage="url('https://i.ibb.co/rx2kj7P/chat.jpg')";
+  document.body.style.backgroundImage="url('https://i.ibb.co/rx2kj7P/chat.jpg') ";
   document.getElementsByClassName('background')[0].style.transition="background-color 2s ease"
   document.getElementsByClassName('background')[0].style.background="rgba(247, 136, 47, 0.7)";
   document.getElementById('project3').style.color='#000000';
