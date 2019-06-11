@@ -6,14 +6,14 @@ function removeProjectSelect(){
 }
 function project1(){
   removeProjectSelect();
-  document.body.style.backgroundImage="url('https://i.ibb.co/kJ7zXKJ/compiler.jpg')";
+  document.body.style.backgroundImage="url('https://i.ibb.co/kJ7zXKJ/compiler.jpg')no-repeat center center fixed";
   document.getElementsByClassName('background')[0].style.background='rgba(76, 211, 186, 0.7)';
   document.getElementById('project1').style.color='#000000';
   document.getElementById('projectName').innerHTML= "Mini Java Compiler";
 }
 function project2(){
   removeProjectSelect();
-  document.body.style.backgroundImage="url('https://i.ibb.co/xLFqS3d/mirror.jpg')";
+  document.body.style.backgroundImage="url('https://i.ibb.co/xLFqS3d/mirror.jpg')no-repeat center center fixed";
   document.getElementsByClassName('background')[0].style.background='rgba(220, 199, 170, 0.7) ';
   document.getElementById('project2').style.color='#000000';
   document.getElementById('projectName').innerHTML= "Smart Mirror";
