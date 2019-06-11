@@ -21,6 +21,7 @@ nav {
     width: 100%;
     text-align: center;
     background:white;
+    font-size: 20px;
 }
 
 ul {
@@ -45,6 +46,7 @@ h2{
     right:80%;
     padding-bottom: 3px;
     border-bottom: 10px solid white; 
+    font-size:30px;
 }
 ol{
 
@@ -54,7 +56,7 @@ ol{
     position: fixed;
     top:30%;
     left:90%;
-    font-size:30px;
+    font-size:40px;
 
 }
 a{
@@ -65,7 +67,7 @@ header{
     background: white;
     height: 70px;
 }
-.nav-item{
+#projects, #simple {
     padding-bottom: 3px;
     border-bottom: 5px solid  lightgrey;
 
