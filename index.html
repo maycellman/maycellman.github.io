@@ -2,7 +2,10 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<title>Sam Maxwell</title>
 </head>
@@ -10,21 +13,31 @@
 	<div class="background">
 		<div id= "wrapper">
 			<header>
-				<a id="name" href="/">Sam Maxwell</a>
-				<nav id="primary-nav">
-					<ul>
-						<li>
-							<a id="projects">Projects</a>
-						</li>
-						<li>
-							<a id="simple">Simple</a>
-						</li>
-					</ul>
-					
-				</nav>
-				<nav id="secondary-nav">
-					
-				</nav>
+				<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Sam Maxwell</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Projects</a></li>
+        
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Simple</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/maycellman"><span class="glyphicon-folder-open"></span> GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/sam-maxwell-6b9625120/"><span class="glyphicon glyphicon-user"></span> LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 					
 				
 			</header>
@@ -45,6 +58,13 @@
 				<h4 id="project4">04</h4>	
 				</li>
 			</ol>
+
+			<div class="discription">
+				<h5>Languages</h5>
+				<ul>
+					
+				</ul>	
+			</div>
 		</div>
 	</div>
 	<script src="js/main.js"></script>
